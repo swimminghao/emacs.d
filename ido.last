@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/xh/" . ".emacs.d/")
+ ("/Users/xh/.emacs.d/" . "lisp/")
+ ("/" . "Users/")
+ ("/Users/" . "xh/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/xh/.emacs.d/lisp/"
+ "/Users/xh/TMP/1/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-kbd.el"
+ "init-consts.el"
+ "init-ui.el"
+ "main.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/xh/.emacs.d/lisp/" (24589 25453 498075 47000) "init-python.el" "init-markdown.el" "init-web.el" "init-json.el" "init-rust.el" "init-kbd.el" "init-yaml.el" "init-startup.el" "init-package.el" "interactive-funcs.el" "init-ui.el" "init-restclient.el" "init-elpa.el" "init-lsp.el" "init-modeline.el" "init-go.el" "init-consts.el" "init-misc.el" "init-program.el" "init-lisp.el" "init-vue.el" "../" "./")
+
+ ("/Users/xh/.emacs.d/" (24589 25483 897206 350000) ".lsp-session-v1" ".git/" "elpa/" "recentf" "early-init.el" "README.md" "init.el" "auto-save-list/" "custom.el" "projectile-bookmarks.eld" "lisp/" "ido.last" "snippets/" "install_requirements.sh" "../" "./")
+
+ ("/Users/xh/TMP/1/" (24589 24983 81341 156000) "main.go" "main.py" ".#main.py" "emacs.d/" "main.go~" "test.java" ".emacs.d/" "main.py~" "vim/" "../" "./")
+
+ ("/Users/xh/TMP/" (24564 32006 276823 631000) "2/" "藏忠凤671234388539.pdf" "3/" "fonts/" "docker_pull.py" "key.zip" "httpd.conf.swo" "java_emacs/" ".emacs" "欢迎使用 MWeb.html" "ohmyzsh/" "aspose.pdf-20.1.jar" "未命名文件夹/" "小飞机三端教程（pc ios 安卓）.zip" ".emacs.d/" "contact.xml" "1/" "key/" "6/" "aspose.pdf-20.1-java/" "clementine-1.4.0rc1-366-g20f49c445.dmg" "System.Net.Http.dll" "小飞机三端教程（pc ios 安卓）/" ".DS_Store" "aspose.pdf-20.1-java.zip" "../" "./")
+
+ ("/Users/xh/" (24589 24855 35921 93000) "iCloud云盘（归档）/" ".viminfo" ".gitconfig" ".cache/" "TMP/" "Downloads/" ".oh-my-zsh/" ".bash_profile" ".m2/" ".vscode/" "Sunlogin Files/" ".mysql_history" "#1.txt#" "Documents/" ".npm/" ".backups/" ".Trash/" ".Qsync/" ".emacs~" ".zcompdump-xh’s iMac-5.7.1" ".gradle/" "Applications/" "Movies/" ".ssh/" "qsyncDocument/" "Public/" ".iterm2/" ".p10k.zsh" ".android/" ".emacs.d/" "software/" "workspaces/" ".oracle_jre_usage/" "Qsync/" "document/" ".emacs.d.zip" ".matplotlib/" "Library/" "Desktop/" ".zsh_history" ".vim_back/" "Pictures/" ".local/" "OneDrive/" ".zshrc" "config/" ".tooling/" ".wget-hsts" ".emacs.keyfreq" ".DS_Store" ".vim/" "sensors/" ".SpaceVim/" "Music/" ".config/" ".SpaceVim.d/" "../" "./")
+
+ ("/Users/" (24442 48939 620464 522000) "xh/" "Shared/" ".localized" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

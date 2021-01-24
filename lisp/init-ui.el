@@ -2,6 +2,17 @@
 ;;; Commentary: (c) Cabins, github.com/cabins/.emacs.d
 ;;; Code:
 
+
+(use-package gruvbox-theme
+  :init (load-theme 'gruvbox-dark-soft t))
+  
+(use-package smart-mode-line
+  :init
+  (setq sml/no-confirm-load-theme t
+	sml/theme 'respectful)
+  (sml/setup))
+
+
 ;; a little bit optimize the screen display when in graphic mode
 (defun cabins/optimize-screen ()
   (when (display-graphic-p)
@@ -28,14 +39,14 @@
 ;; function to set monofonts
 (defun cabins/set-fonts ()
   "Set the fonts, inspired by URL `http://ergoemacs.org/emacs/emacs_list_and_set_font.html'"
-  (let ((default-fonts '("Courier New" "Ubuntu Mono" "Monaco" "Source Code Pro" "Menlo" "Consolas"))
+  (let ((default-fonts '("Source Code Pro for Powerline 11" "Courier New" "Ubuntu Mono" "Monaco" "Source Code Pro" "Menlo" "Consolas"))
         (emoji-fonts '("Apple Color Emoji" "Symbola" "Symbol"))
         (chinese-fonts '("楷体" "Microsoft Yahei" "Heiti SC" "WenQuanYi Micro Hei")))
     ;; set the default font
     (set-face-attribute 'default nil
                         :font (font-spec :name (cabins/1st-available-font default-fonts)
                                          :size (cond (*is-windows* 13)
-                                                     (*is-mac* 13)
+                                                     (*is-mac* 15)
                                                      (t 12))))
     ;; set the emoji font
     (set-fontset-font t 'unicode (cabins/1st-available-font emoji-fonts) nil 'prepend)
