@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # About this project
 
 
@@ -48,3 +49,7 @@ it should run on other platforms, please note that.
 ## About bugs
 
 Any issue will be welcomed, just send me an issue if you find something not friendly to you.
+=======
+# emacs.d
+emacs配置
+>>>>>>> 94ec5f760505b509081d9831fd42bec38dc9973e
